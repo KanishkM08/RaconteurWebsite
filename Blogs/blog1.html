@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- swiper slider css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.0-alpha.21/swiper-bundle.min.css" integrity="sha512-IRKZqCqrCZ9z2mWSMfIzccLd9NsTXgNBvJvX2M+IYVOr60b4cm+/0Cbc2bjiOPgGu7CLmS4Ety1vUUZqqMm1pw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Raconteur Blogs</title>
+</head>
+
+
+<body>
+
+         <!-- header -->
+         <header id="header" class="shadow bg-light">
+        <nav class="container navbar">
+            <a href="../index.html" class="nav-brand text-dark"></a> <img src = "../Assets/ShortLogo.jpg" width="300px" height = "100px">
+            <!-- Collapse on toggle button click -->
+            <button class="toggle-button">
+        <span><i class="fas fa-bars"></i></span>
+        </button>
+            <div class="collapse">
+                <ul class="navbar-nav">
+                    <a href="../index.html" class="nav-link">Home</a>
+                    <a href="../index.html" class="nav-link">Blog</a>
+                    <a href="#footer" class="nav-link">About Us</a>
+                    <a href="#footer" class="nav-link">Contact</a>
+                    <a href="" class="nav-link"><b>Login/Register</b></a>
+                </ul>
+            </div>
+            <!-- Collapse on toggle button click -->
+            <div class="collapse">
+                <ul class="navbar-nav"></ul>
+            </div>
+        </nav>
+         </header>
+         <!-- ,header -->
+
+        <!-- main site -->
+        <main id="site-main">
+
+            <!-- Post Content -->
+            <section class="container">
+                <article id="post">
+                    <!-- article heading -->
+                    <div class="headings text-center">
+                        <div class="category">
+                            <a href="#author-profile" class="nav-link">Rigved Bansal</a>
+                        </div>
+
+                        <div class="title">
+                            <h2 class="text-title text-dark display-1">Blog Title</h2>
+                        </div>
+
+                        <div class="meta">
+                            <a href="https://fr.wikipedia.org/wiki/Drapeau_de_la_France" target="_blank" class="link display-2 text-secondary px-1">
+                            Blog Source
+                            </a>
+                            <a href="#post-comments" class="link display-2 text-secondary px-1">
+                                <i class="fas fa-comments text-primary"></i> Comment No.
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- thumbnail -->
+                    <div class="thumbnail mt-3">
+                        <img src="../Assets/FrenchFlag.jpg" class="thumbnail">
+                    </div>
+
+                    <!-- content -->
+                    <div class="content text-dark display-2 secondary-title mt-3">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores saepe cumque reprehenderit, dignissimos, fugit eaque sint quod quasi impedit, veritatis quo. Quam blanditiis quibusdam, minima repudiandae odit ducimus porro fugit error facilis aperiam nam iste libero qui tenetur necessitatibus. Fugit voluptates explicabo et harum amet inventore alias cum, perspiciatis odio quis dignissimos sunt illum tenetur tempore in obcaecati beatae error! Ex nulla consectetur atque fugit reiciendis porro aspernatur reprehenderit veritatis quasi alias animi eligendi voluptatem facere quisquam, illo eveniet! Ipsum cumque voluptatem labore, odit dolore unde. Totam pariatur debitis perspiciatis tempora laboriosam mollitia cupiditate est saepe culpa, sint molestiae explicabo.</p>
+                    </div>
+                </article>
+
+                <!-- post footer -->
+                <div class="post-footer mb-3" id="author-profile">
+                    <div class="post-tags d-flex flex-wrap justify-content-center">
+                        <a href="#" class="nav-link btn bg-light">Tag1</a>
+                        <a href="#" class="nav-link btn bg-light">Tag2</a>
+                        <a href="#" class="nav-link btn bg-light">Tag3</a>
+                        <a href="#" class="nav-link btn bg-light">Tag4</a>
+                    </div>
+
+                    <div class="post-author text-center">
+                        <div class="author-avatar">
+                            <img src="../Assets/Logo.jpeg" class="rounded">
+                        </div>
+
+                        <div class="author-info py-2">
+                            <h3 class="text-dark">Rigved Bansal</h3>
+
+                            <p class="text-secondary secondary-title">
+                                About Rigved: Lorem ipsum dolor sit amet.
+                            </p>
+
+                            <div class="post-tags d-flex flex-wrap justify-content-center">
+                                <a href="https://www.instagram.com/raconteurblogs/" class="nav-link"><i class = "fab fa-instagram"></i></a>
+                                <a href="https://github.com/KanishkM08/RaconteurWebsite" class="nav-link"><i class = "fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- post related -->
+                    <div class="post-related py-2">
+                        <div class="row justify-content-center">
+                            <div class="prev">
+                                <div class="py-2">
+                                    <a href="#" class="display-2 text-dark">
+                                        <i class="fas fa-chevron-left"></i> Previous Blog
+                                    </a>
+                                </div>
+                                <article class="article text-center">
+                                    <div class="d-flex">
+                                        <a href="#">
+                                            <img src="../Assets/" class="object-fit">
+                                        </a>
+                                        <div class="card-body px-1">
+                                            <div class="category">
+                                                <a href="#" class="link text-primary text-secondary">Blog Title</a>
+                                            </div>
+                                            <a href="#" class="text-title display-1 text-dark px-2">Blog Description</a>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="next text-right">
+                                <div class="py-2">
+                                    <a href="#" class="display-2 text-dark">
+                                    Next Blog
+                                        <i class="fas fa-chevron-right"></i>
+                                        </a>
+                                </div>
+                                <article class="article text-center">
+                                    <div class="d-flex">
+                                        <div class="card-body px-1">
+                                            <div class="category">
+                                                <a href="./tour_deiffel.html" class="link text-primary text-secondary">Blog Title</a>
+                                            </div>
+                                            <a href="./tour_deiffel.html" class="text-title display-1 text-dark px-2">Blog Description</a>
+                                        </div>
+                                        <a href="./tour_deiffel.html">
+                                            <img src="../Assets/Eiffel Tower.jpg" class="object-fit">
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Comments -->
+                    <div class="post-comments py-2" id="post-comments">
+                        <h3 class="text-center display-1 secondary-title py-2">2 Comments</h3>
+
+                        <div class="comment-details">
+                            <div class="comment-item py-2">
+                                <div class="d-flex">
+                                    <div class="avatar px-2">
+                                        <img src="../Assets/" class="rounded" alt = "pfp">
+                                    </div>
+                                    <div class="comment-content">
+                                        <h5 class="display-2 m-0"> Person1</h5>
+                                        <p class="title-secondary text-dark">
+                                            Comments are currently unavailable.                             
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <!-- Comment Reply -->
+                                <div class="reply py-2">
+                                    <div class="d-flex">
+                                        <div class="avatar px-2">
+                                            <img src="../Assets/sid_logo.png" class="rounded" alt = "pfp">
+                                        </div>
+                                        <div class="comment-content">
+                                            <h5 class="display-2 m-0"> Person2 </h5>
+                                            <p class="title-secondary text-dark">
+                                                This is how a comment will look like.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- comment form -->
+                        <div class="comment-form">
+
+                            <h3 class="text-center display-1 secondary-title py-2">Write A Comment</h3>
+
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <input type="text" class="form-control" placeholder="Name" disabled>
+                                <input type="email" class="form-control" placeholder="E-mail" disabled>
+                            </div>
+
+                            <textarea class="form-control mt-3" placeholder="Comment" rows="10" disabled></textarea>
+                            <div class="text-center">
+                                <button class="btn btn-primary display-2 mt-2 text-dark submitBtn" onClick="submitComment()" disabled>Submit</button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- .post related -->
+                </div>
+
+                <!-- .post footer -->
+
+            </section>
+
+            <!-- Post Content -->
+
+                <!-- Swiper Slider -->
+                <section class="slider">
+                    <div class="container">
+                        <!-- Slider main container -->
+                        <div class="swiper-container">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="slider-img-wrapper">
+                                            <img src="./Assets/" class="img-fluid slider-img">
+                                            <div class="slider-img-overlay">
+                                                <div class="overlay-text">Blog1</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Slides -->
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="slider-img-wrapper">
+                                            <img src="./Assets/" class="img-fluid slider-img">
+                                            <div class="slider-img-overlay">
+                                                <div class="overlay-text">Blog2</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Slides -->
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="slider-img-wrapper">
+                                            <img src="./Assets/" class="img-fluid slider-img">
+                                            <div class="slider-img-overlay">
+                                                <div class="overlay-text">Blog3</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Slides -->
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="slider-img-wrapper">
+                                            <img src="./Assets/" class="img-fluid slider-img">
+                                            <div class="slider-img-overlay">
+                                                <div class="overlay-text">Blog4</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Slides -->
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="slider-img-wrapper">
+                                            <img src="./Assets/" class="img-fluid slider-img">
+                                            <div class="slider-img-overlay">
+                                                <div class="overlay-text">Blog5</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Slides -->
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="slider-img-wrapper">
+                                            <img src="./Assets/" class="img-fluid slider-img">
+                                            <div class="slider-img-overlay">
+                                                <div class="overlay-text">Blog6</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Slides -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- .Swiper Slider -->
+
+        </main>
+        <!-- main site -->
+
+        <!-- footer -->
+        <footer id="footer">
+                        <div class="container2">
+                            <div class="row mb-3">
+                                <div class="col-3">
+                                    <h2 class="footer-title secondary-title">About Us</h2>
+                                    <div class="secondary-title text-secondary">
+                                        <p class="mt-2">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, voluptas laudantium repellat vitae rerum dicta!
+                                        </p>
+                                        <address>
+                                            <i class = "fas fa-map-marker-alt text-dark"></i>
+                                            Location
+                                        </address>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <h2 class="footer-title secondary-title">Trending</h2>
+                                    <div class="feature-post">
+                                        <div class="flex-item">
+                                            <article class="article">
+                                                <div class="d-flex">
+                                                    <a href="#" class="" id="">
+                                                        <img src="Assets/" class="object-fit px-1">
+                                                        <div class="px-1">
+                                                            <a href="#" class="text-title display-2 text-dark">
+                                                                blog1
+                                                            </a>
+                                                            
+                                                            <p class="secondary-title text-secondary display-32">
+                                                            </p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="flex-item">
+                                            <article class="article">
+                                                <div class="d-flex">
+                                                    <a href="#" class="" id="">
+                                                        <img src="Assets/" class="object-fit px-1">
+                                                        <div class="px-1">
+                                                            <a href="#" class="text-title display-2 text-dark">
+                                                                blog2
+                                                            </a>
+                                                            
+                                                            <p class="secondary-title text-secondary display-32">
+                                                            </p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                        <div class="flex-item">
+                                            <article class="article">
+                                                <div class="d-flex">
+                                                    <a href="#" class="" id="">
+                                                        <img src="Assets/" class="object-fit px-1">
+                                                        <div class="px-1">
+                                                            <a href="#" class="text-title display-2 text-dark">
+                                                                blog3
+                                                            </a>
+                                                            <p class="secondary-title text-secondary display-32">
+                                                            </p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </article>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3">
+                                    <h2 class="footer-title secondary-title">Our Socials</h2>
+                                    <div class="tags social">
+                                        <div class="d-flex flex-wrap">
+                                            <a href="#" class="nav-link btn text-primary" id="twitter"><i class="fab fa-twitter" title="Suivez les créateurs du site sur Twitter"></i></a>
+                                            <a href="#" class="nav-link btn text-primary" id="insta"><i class="fab fa-instagram" title="Suivez les créateurs du site sur Instagram"></i></a>
+                                            <a href="#" class="nav-link btn text-primary" id="github"><i class="fab fa-github" title="Voyez le code source sur GitHub"></i></a>
+                                        </div>
+                                        <script src="./js/links.js"></script>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        </footer>
+        <!-- .footer -->
+
+        <!-- Masonry Lib for Grid -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- swiper slider lib -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.0-alpha.21/swiper-bundle.min.js" integrity="sha512-tvodlm76/5FmjtTQ66p35nUaJbgLpjsFWjAYKJsvrTqa6ajMEp3bJqbvwl77GPPg/SiR8K5ogtym3Qgi+Z0uYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- custom javascript main.js file -->
+        <script src="../js/main.js"></script>
+</body>
+
+</html>
