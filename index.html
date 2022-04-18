@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <!-- swiper slider css file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.0-alpha.21/swiper-bundle.min.css" integrity="sha512-IRKZqCqrCZ9z2mWSMfIzccLd9NsTXgNBvJvX2M+IYVOr60b4cm+/0Cbc2bjiOPgGu7CLmS4Ety1vUUZqqMm1pw==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <title>Raconteur Blogs</title>
+</head>
+<body>
+    <!-- header -->
+        <header id="header" class="shadow bg-light">
+            <nav class="container navbar">
+                <a href="./index.html" class="nav-brand text-dark"></a> <img src = "Assets/ShortLogo.jpg" width="300px" height = "100px">
+                <!-- Collapse on toggle button click -->
+                <button class="toggle-button">
+            <span><i class="fas fa-bars"></i></span>
+            </button>
+                <div class="collapse">
+                    <ul class="navbar-nav">
+                        <a href="#" class="nav-link">Home</a>
+                        <a href="#posts" class="nav-link">Blog</a>
+                        <a href="#footer" class="nav-link">About Us</a>
+                        <a href="#footer" class="nav-link">Contact</a>
+                        <a href="" class="nav-link"><b>Login/Register</b></a>
+                    </ul>
+                </div>
+                <!-- Collapse on toggle button click -->
+                <div class="collapse">
+                    <ul class="navbar-nav"></ul>
+                </div>
+            </nav>
+        </header>
+    <!-- ,header -->
+
+            <!-- main site -->
+            <main id="site-main">
+                <!-- Blog Post Section -->
+                <section id="posts">
+                    <div class="container">
+                        <div class="grid">
+                            <!-- article -->
+                            <div class="grid-item">
+                                <article class="article">
+                                    <div class="card">
+                                        <div class="overflow-img">
+                                            <a href="./Blogs/blog1.html"><img src="./Assets/" class="img-fluid" alt="blog1"></a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center px-1">
+                                        <a href="./Blogs/blog1.html" class="text-title display-1 text-dark">
+                               Blog1
+                               </a>
+                                        <p class="secondary-title text-secondary display-3">
+                                            <span><i class = "fas fa-pen text-primary"></i>Rigved Bansal</span>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                            <!-- article -->
+                            <!-- article -->
+                            <div class="grid-item">
+                                <article class="article">
+                                    <div class="card">
+                                        <div class="overflow-img">
+                                            <a href="./Blogs/"><img src="./Assets/" class="img-fluid" alt="blog2"></a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center px-1">
+                                        <a href="./Blogs/" class="text-title display-1 text-dark">
+                               Blog2
+                               </a>
+                                        <p class="secondary-title text-secondary display-3">
+                                            <span><i class = "fas fa-pen text-primary"></i>Rigved Bansal</span>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                            <!-- article -->
+                            <!-- article -->
+                            <div class="grid-item">
+                                <article class="article">
+                                    <div class="card">
+                                        <div class="overflow-img">
+                                            <a href="./Blogs/"><img src="./Assets/" class="img-fluid" alt="blog3"></a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body text-center px-1">
+                                        <a href="./Blogs/" class="text-title display-1 text-dark">
+                               Blog3
+                               </a>
+                                        <p class="secondary-title text-secondary display-3">
+                                            <span><i class = "fas fa-pen text-primary"></i>Rigved Bansal</span>
+                                        </p>
+                                    </div>
+                                </article>
+                            </div>
+                            <!-- article -->                    
+                        </div>
+                    </div>
+                </section>
+                <!-- Blog Post Section -->
+
+                <!-- Swiper Slider -->
+                <section class="slider">
+                    <div class="container">
+                        <!-- Slider main container -->
+                        <div class="swiper-container">
+                            <!-- Additional required wrapper -->
+                            <div class="swiper-wrapper">
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="slider-img-wrapper">
+                                            <img src="./Assets/" class="img-fluid slider-img">
+                                            <div class="slider-img-overlay">
+                                                <div class="overlay-text">Blog1</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Slides -->
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="slider-img-wrapper">
+                                            <img src="./Assets/" class="img-fluid slider-img">
+                                            <div class="slider-img-overlay">
+                                                <div class="overlay-text">Blog2</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Slides -->
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="slider-img-wrapper">
+                                            <img src="./Assets/" class="img-fluid slider-img">
+                                            <div class="slider-img-overlay">
+                                                <div class="overlay-text">Blog3</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Slides -->
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="slider-img-wrapper">
+                                            <img src="./Assets/" class="img-fluid slider-img">
+                                            <div class="slider-img-overlay">
+                                                <div class="overlay-text">Blog4</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Slides -->
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="slider-img-wrapper">
+                                            <img src="./Assets/" class="img-fluid slider-img">
+                                            <div class="slider-img-overlay">
+                                                <div class="overlay-text">Blog5</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Slides -->
+                                <!-- Slides -->
+                                <div class="swiper-slide">
+                                    <a href="#">
+                                        <div class="slider-img-wrapper">
+                                            <img src="./Assets/" class="img-fluid slider-img">
+                                            <div class="slider-img-overlay">
+                                                <div class="overlay-text">Blog6</div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Slides -->
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <!-- .Swiper Slider -->
+            </main>
+            <!-- main site -->
+
+                    <!-- footer -->
+        <footer id="footer">
+            <div class="container2">
+                <div class="row mb-3">
+                    <div class="col-3">
+                        <h2 class="footer-title secondary-title">About Us</h2>
+                        <div class="secondary-title text-secondary">
+                            <p class="mt-2">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, voluptas laudantium repellat vitae rerum dicta!
+                            </p>
+                            <address>
+                                <i class = "fas fa-map-marker-alt text-dark"></i>
+                                Location
+                            </address>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <h2 class="footer-title secondary-title">Trending</h2>
+                        <div class="feature-post">
+                            <div class="flex-item">
+                                <article class="article">
+                                    <div class="d-flex">
+                                        <a href="#" class="" id="">
+                                            <img src="Assets/" class="object-fit px-1">
+                                            <div class="px-1">
+                                                <a href="#" class="text-title display-2 text-dark">
+                                                    blog1
+                                                </a>
+                                                
+                                                <p class="secondary-title text-secondary display-32">
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="flex-item">
+                                <article class="article">
+                                    <div class="d-flex">
+                                        <a href="#" class="" id="">
+                                            <img src="Assets/" class="object-fit px-1">
+                                            <div class="px-1">
+                                                <a href="#" class="text-title display-2 text-dark">
+                                                    blog2
+                                                </a>
+                                                
+                                                <p class="secondary-title text-secondary display-32">
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                            <div class="flex-item">
+                                <article class="article">
+                                    <div class="d-flex">
+                                        <a href="#" class="" id="">
+                                            <img src="Assets/" class="object-fit px-1">
+                                            <div class="px-1">
+                                                <a href="#" class="text-title display-2 text-dark">
+                                                    blog3
+                                                </a>
+                                                <p class="secondary-title text-secondary display-32">
+                                                </p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <h2 class="footer-title secondary-title">Our Socials</h2>
+                        <div class="tags social">
+                            <div class="d-flex flex-wrap">
+                                <a href="#" class="nav-link btn text-primary" id="twitter"><i class="fab fa-twitter" title="Suivez les créateurs du site sur Twitter"></i></a>
+                                <a href="#" class="nav-link btn text-primary" id="insta"><i class="fab fa-instagram" title="Suivez les créateurs du site sur Instagram"></i></a>
+                                <a href="#" class="nav-link btn text-primary" id="github"><i class="fab fa-github" title="Voyez le code source sur GitHub"></i></a>
+                            </div>
+                            <script src="./js/links.js"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- .footer -->
+        <!-- Masonry Lib for Grid -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="sha512-JRlcvSZAXT8+5SQQAvklXGJuxXTouyq8oIMaYERZQasB8SBDHZaUbeASsJWpk0UUrf89DP3/aefPPrlMR1h1yQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- swiper slider lib -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/7.0.0-alpha.21/swiper-bundle.min.js" integrity="sha512-tvodlm76/5FmjtTQ66p35nUaJbgLpjsFWjAYKJsvrTqa6ajMEp3bJqbvwl77GPPg/SiR8K5ogtym3Qgi+Z0uYg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <!-- custom javascript main.js file -->
+        <script src="./js/main.js"></script>
+</body>
+</html>
